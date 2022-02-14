@@ -1,0 +1,23 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/lead/leadcss);
+
+@import url(../blocks/intro/intro.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/cover/cover.css);
+
+@import url(../blocks/footer/footer.css);
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/Inter-Thin.woff2?v=3.19) format("woff2"),
+       url(../fonts/Inter-Thin.woff?v=3.19) format("woff");
+}

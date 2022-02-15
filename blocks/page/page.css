@@ -1,0 +1,17 @@
+.page {
+min-width: 1279px;
+font-family: 'Inter', Arial, sans-serif;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-content: center;
+align-items: center;
+
+/* background: #2A2C2F;нормальный цвет страницы */
+
+background: #8a929e; /* после работ убрать и выставитьнормальный цвет страницы */
+margin: 0;
+padding: 0;
+
+}

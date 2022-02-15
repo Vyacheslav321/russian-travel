@@ -1,0 +1,11 @@
+.header {
+  width: 92.5%;
+  margin: 0;
+  padding: 28px 0 56px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  box-sizing: content-box;
+  min-height: 52px;
+}

@@ -1,0 +1,14 @@
+.header__land-link {
+  margin: 18px 18px 6px 0;
+}
+
+.header__land-link:last-of-type {
+  margin: 18px 0 6px;
+}
+
+.header__land-link:hover {
+  opacity: 80%;
+  background-blend-mode: normal;
+  text-decoration: underline;
+}
+

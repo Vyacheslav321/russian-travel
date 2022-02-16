@@ -1,3 +1,19 @@
 .lead__caption {
-  
+  margin: 0;
+  padding: 8 0 0;
+  /* max-width: 158px; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  grid-auto-rows: minmax(158px, auto);
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  justify-self: start;
 }
+

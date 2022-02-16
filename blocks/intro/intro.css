@@ -1,0 +1,11 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: start;
+  flex-wrap: nowrap;
+  width: 76.8%;
+  margin: 92px 0 0;
+  padding: 0;
+}

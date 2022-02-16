@@ -1,3 +1,18 @@
 .lead__subtitle {
-  
+  margin: 0;
+  padding: 0 0 64px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 640px;
+  /* max-height: 72px; */
+
+  /* grid-auto-rows: minmax(100px, auto); */
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+
 }

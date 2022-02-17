@@ -9,9 +9,6 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__land-link/header__land-link.css);
 
-/* MAIN */
-@import url(../blocks/main/main.css);
-
 /* LEAD */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -29,6 +26,20 @@
 
 /* PHOTO-GRID */
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/_pic1/photo-grig__item_pic1.css);
+@import url(../blocks/photo-grid/__item/_pic2/photo-grig__item_pic2.css);
+@import url(../blocks/photo-grid/__item/_pic3/photo-grig__item_pic3.css);
+@import url(../blocks/photo-grid/__item/_pic4/photo-grig__item_pic4.css);
+@import url(../blocks/photo-grid/__item/_pic5/photo-grig__item_pic5.css);
+@import url(../blocks/photo-grid/__item/_pic6/photo-grig__item_pic6.css);
+@import url(../blocks/photo-grid/__item/_pic7/photo-grig__item_pic7.css);
+@import url(../blocks/photo-grid/__item/_pic8/photo-grig__item_pic8.css);
+@import url(../blocks/photo-grid/__item/_pic9/photo-grig__item_pic9.css);
+@import url(../blocks/photo-grid/__item/_pic10/photo-grig__item_pic10.css);
+@import url(../blocks/photo-grid/__item/_pic11/photo-grig__item_pic11.css);
+@import url(../blocks/photo-grid/__item/_pic12/photo-grig__item_pic12.css);
+@import url(../blocks/photo-grid/__img/photo-grid__img.css);
 
 @import url(../blocks/places/places.css);
 

@@ -1,0 +1,16 @@
+.photo-grid__item {
+  margin: 0;
+  padding: 0;
+
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  grid-template-areas:
+  "pic1 pic2 pic3 pic4"
+  "pic5 pic6 pic7 pic8"
+  "pic9 pic10 pic11 pic12";
+
+  list-style-type: none;
+}

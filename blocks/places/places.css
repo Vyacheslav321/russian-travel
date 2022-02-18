@@ -1,0 +1,9 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width:77.92%;
+  margin: 0;
+  padding: 92px 0 0;
+}

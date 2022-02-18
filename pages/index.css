@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
 
 /* PAGE */
 @import url(../blocks/page/page.css);
@@ -23,51 +24,23 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_bold/intro__list_bold.css);
+@import url(../blocks/intro/__list/_normal/intro__list_normal.css);
 
 /* PHOTO-GRID */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__item/_pic1/photo-grig__item_pic1.css);
-@import url(../blocks/photo-grid/__item/_pic2/photo-grig__item_pic2.css);
-@import url(../blocks/photo-grid/__item/_pic3/photo-grig__item_pic3.css);
-@import url(../blocks/photo-grid/__item/_pic4/photo-grig__item_pic4.css);
-@import url(../blocks/photo-grid/__item/_pic5/photo-grig__item_pic5.css);
-@import url(../blocks/photo-grid/__item/_pic6/photo-grig__item_pic6.css);
-@import url(../blocks/photo-grid/__item/_pic7/photo-grig__item_pic7.css);
-@import url(../blocks/photo-grid/__item/_pic8/photo-grig__item_pic8.css);
-@import url(../blocks/photo-grid/__item/_pic9/photo-grig__item_pic9.css);
-@import url(../blocks/photo-grid/__item/_pic10/photo-grig__item_pic10.css);
-@import url(../blocks/photo-grid/__item/_pic11/photo-grig__item_pic11.css);
-@import url(../blocks/photo-grid/__item/_pic12/photo-grig__item_pic12.css);
-@import url(../blocks/photo-grid/__img/photo-grid__img.css);
 
+/* PLACES */
 @import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__website/place__website.css);
 
 @import url(../blocks/cover/cover.css);
 
 @import url(../blocks/footer/footer.css);
-/* FONTS */
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
-       url("../fonts/Inter-Regular.woff") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("../fonts/Inter-Bold.woff2") format("woff2"),
-       url("../fonts/Inter-Bold.woff") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("../fonts/Inter-Black.woff2") format("woff2"),
-       url("../fonts/Inter-Black.woff") format("woff");
-}

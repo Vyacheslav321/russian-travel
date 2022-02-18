@@ -1,0 +1,16 @@
+.place {
+  display: grid;
+  grid-template-columns: 46.75% 49.187%;
+  grid-template-rows:auto min-content;
+  column-gap: 40px;
+  row-gap: 48px;
+  margin: 0;
+  padding: 0 0 80px;
+
+}
+
+
+
+.place:last-of-type {
+  padding: 0;
+}

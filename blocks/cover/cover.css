@@ -1,0 +1,7 @@
+.cover {
+  margin: 0;
+  padding: 92px 0;
+  min-height: 92.5%;
+  /* grid-template-columns: 1fr; */
+  /* grid-template-rows: 1fr; */
+}

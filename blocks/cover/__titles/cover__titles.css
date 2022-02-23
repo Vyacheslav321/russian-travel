@@ -1,0 +1,7 @@
+.cover__titles {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  max-width: 560px;
+  text-align: center;
+  z-index: 10;
+}

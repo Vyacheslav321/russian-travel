@@ -43,11 +43,20 @@
 
 /* COVER */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__titles/cover__titles.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__background/cover__background.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+@media screen and (max-width: 1279px) {}
+
+@media screen and (max-width: 1023px) {}
+
+@media screen and (max-width: 767px) {}

@@ -1,24 +1,36 @@
 .cover__background {
   background-image: url(../../../images/__background.jpg);
-
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  max-width: 100%;
   min-width: 1184px;
   min-height: 740px;
-  box-sizing: content-box;
-  border: 0;
-  z-index: -1;
-background-color: transparent;
-
-  background-position: center center;
-  opacity: 0.8;
-
-
-  grid-column: 1/2;
-  grid-row: 1/2;
-
-  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  text-decoration: none;
+  background-size:cover;
 }
+
+.cover__background:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  min-width: 1184px;
+  min-height: 740px;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 200ms ease-in-out;
+}
+
+.cover__background:hover:before {
+  display: block;
+  opacity: 0.8;
+}
+
+

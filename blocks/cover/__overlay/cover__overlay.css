@@ -1,15 +1,8 @@
 .cover__overlay {
-  /*   background-image: url(../../../images/__overlay.png);; */
-    /* background-color: rgba(255, 255, 255, 0.3); */
-  min-width: 1184px;
-  min-height: 740px;
-  background-position: center center;
-  box-sizing: content-box;
-  border: 0;
-  /* background-color: transparent; */
-
-
-  grid-column: 1/2;
-  grid-row: 1/2;
-  /* border: 1px solid rgb(0, 255, 76); */
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  max-width: 560px;
+  text-align: center;
+  z-index: 10;
 }

@@ -1,11 +1,28 @@
 .lead {
-  width: 76.8%;
+
   margin: 0 auto;
   padding: 0;
   display: grid;
-  grid-template-rows: repeat(4 auto);
-  /* grid-template-columns: minmax(fit=content, auto); */
+  grid-template-rows: repeat(4, min-content);
   gap: 0;
+  justify-content: center;
   justify-items: center;
+}
 
+@media screen and (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    max-width: 320px;
+  }
 }

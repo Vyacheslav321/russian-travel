@@ -2,10 +2,31 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-content: center;
+  justify-items: start;
+  align-content: flex-start;
   align-items: start;
   flex-wrap: nowrap;
-  width: 76.8%;
+  /* max-width: 77.91%; */
+  min-width: 984px;
   margin: 92px 0 0;
   padding: 0;
+}
+@media screen and (max-width: 1279px) {
+  .intro {
+    min-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    min-width: 720px;
+    margin: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    min-width: 288px;
+    margin: 64px 0 0;
+  }
 }

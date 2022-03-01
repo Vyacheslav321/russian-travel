@@ -10,6 +10,7 @@
 
 .header__land-link:last-of-type {
   margin: 18px 0 6px;
+  text-decoration:none;
 }
 
 .header__land-link:hover {
@@ -18,3 +19,14 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 767px) {
+  .header__land-link {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 14px 18px 8px 0;
+  }
+  .header__land-link:last-of-type {
+    margin: 14px 0 8px;
+    text-decoration:none;
+  }
+}

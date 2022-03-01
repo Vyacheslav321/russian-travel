@@ -9,9 +9,15 @@
   text-align: center;
   color: #FFFFFF;
   max-width: 720px;
-
-  /* grid-auto-rows: minmax(100px, auto); */
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
 
+@media screen and (max-width: 767px) {
+  .lead__title {
+    padding: 0 0 16px;
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 288px;
+  }
+}

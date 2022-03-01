@@ -9,10 +9,21 @@
   text-align: center;
   color: #FFFFFF;
   max-width: 640px;
-  /* max-height: 72px; */
-
-  /* grid-auto-rows: minmax(100px, auto); */
   grid-column: 1 / 2;
   grid-row: 2 / 3;
+}
 
+@media screen and (max-width: 1279px) {
+  .lead__subtitle {
+    padding: 0 0 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    padding: 0 0 40px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 288px;
+  }
 }

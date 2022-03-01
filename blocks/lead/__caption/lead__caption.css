@@ -1,7 +1,6 @@
 .lead__caption {
   margin: 0;
-  padding: 8 0 0;
-  /* max-width: 158px; */
+  padding: 8px 0 0;
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
@@ -10,10 +9,20 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-
-  grid-auto-rows: minmax(158px, auto);
   grid-column: 1 / 2;
   grid-row: 4 / 5;
-  justify-self: start;
+  min-width: 100%;
+  justify-items: start;
 }
 
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    min-width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    min-width: 90.625%;
+  }
+}

@@ -9,3 +9,25 @@
   box-sizing: content-box;
   min-height: 52px;
 }
+
+@media screen and (max-width: 1279px) {
+  .header {
+    width: 90.625%;
+    padding: 28px 0 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    width: 93.75%;
+    padding: 28px 0 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 90%;
+    padding: 16px 0 48px;
+    min-height: 52px;
+  }
+}

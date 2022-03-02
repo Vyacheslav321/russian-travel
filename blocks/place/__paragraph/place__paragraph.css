@@ -20,3 +20,11 @@
     padding: 0 0 25px;
   }
 }
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 16px 25px 16px;
+  }
+  .place__paragraph:last-of-type {
+    padding: 0 16px;
+  }
+}

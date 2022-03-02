@@ -17,3 +17,13 @@
  .footer__link:hover {
    opacity: 0.8;
  }
+
+@media screen and (max-width: 1279px) {}
+
+@media screen and (max-width: 1023px) {}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    padding: 0 0 32px 0;
+  }
+}

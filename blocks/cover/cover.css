@@ -8,3 +8,25 @@
   padding: 92px 0 0;
 }
 
+@media screen and (max-width: 1279px) {
+  .cover {
+    min-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-width: 768px;
+    min-height: 480px;
+    padding: 90px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    min-width: 320px;
+    min-height: 200px;
+    padding: 66px 0 0;
+  }
+}

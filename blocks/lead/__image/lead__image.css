@@ -4,8 +4,10 @@
   box-sizing: border-box;
   grid-column: 1 / 2;
   grid-row: 3 / 4;
-
+  min-width: 984px;
+  max-width: 100%;
 }
+
 @media screen and (max-width: 1279px) {
   .lead__image {}
 }

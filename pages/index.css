@@ -53,12 +53,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
-@media screen and (max-width: 1279px) {}
-
-
-@media screen and (max-width: 1023px) {}
-
-@media screen and (max-width: 767px) {}
-

@@ -160,7 +160,7 @@ Usage:
     html { font-family: 'Inter var', sans-serif; }
   }
 */
-@font-face {
+/* @font-face {
   font-family: 'Inter var';
   font-weight: 100 900;
   font-display: swap;
@@ -175,7 +175,7 @@ Usage:
   font-style: italic;
   font-named-instance: 'Italic';
   src: url(./Inter-italic.var.woff2) format("woff2");
-}
+} */
 
 
 /* --------------------------------------------------------------------------
@@ -191,10 +191,10 @@ explicitly, e.g.
   .italic { font-variation-settings: "slnt" 10deg }
 
 */
-@font-face {
+/* @font-face {
   font-family: 'Inter var experimental';
   font-weight: 100 900;
   font-display: swap;
   font-style: oblique 0deg 10deg;
   src: url("Inter.var.woff2?v=3.19") format("woff2");
-}
+} */

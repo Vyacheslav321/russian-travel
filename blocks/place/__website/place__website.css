@@ -1,7 +1,8 @@
 .place__website {
   margin: 0;
   padding: 0;
-  align-self: flex-start;
+  align-self: flex-end;
+  justify-self: flex-start;
 }
 
 @media screen and (max-width: 767px) {

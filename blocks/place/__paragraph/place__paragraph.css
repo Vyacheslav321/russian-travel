@@ -1,12 +1,12 @@
 .place__paragraph {
   margin: 0;
   padding: 0 0 26px;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.63;
-  color: #FFFFFF;
+  color: #fff;
   align-self: start;
 }
 

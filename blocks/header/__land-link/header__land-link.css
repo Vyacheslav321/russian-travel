@@ -1,16 +1,16 @@
 .header__land-link {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #fff;
   margin: 18px 18px 6px 0;
 }
 
 .header__land-link:last-of-type {
   margin: 18px 0 6px;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .header__land-link:hover {
@@ -27,6 +27,6 @@
   }
   .header__land-link:last-of-type {
     margin: 14px 0 8px;
-    text-decoration:none;
+    text-decoration: none;
   }
 }

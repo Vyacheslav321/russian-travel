@@ -8,6 +8,6 @@
 }
 @media screen and (max-width: 767px) {
   .cover__overlay {
-    max-width: 288px;
+    max-width: 320px;
   }
 }

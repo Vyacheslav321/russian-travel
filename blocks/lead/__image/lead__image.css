@@ -12,13 +12,19 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .lead__image {}
+  .lead__image {
+    min-width: 928px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-  .lead__image {}
+  .lead__image {
+    min-width: 768px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .lead__image {}
+  .lead__image {
+    min-width: 320px;
+  }
 }

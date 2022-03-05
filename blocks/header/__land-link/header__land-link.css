@@ -6,17 +6,16 @@
   line-height: 28px;
   color: #fff;
   margin: 18px 18px 6px 0;
+  text-decoration: none;
 }
 
 .header__land-link:last-of-type {
   margin: 18px 0 6px;
-  text-decoration: none;
 }
 
 .header__land-link:hover {
   opacity: 80%;
   background-blend-mode: normal;
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 767px) {
@@ -27,6 +26,5 @@
   }
   .header__land-link:last-of-type {
     margin: 14px 0 8px;
-    text-decoration: none;
   }
 }

@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 767px) {
   .header__logo {
-    background-image: url(../../../images/__logo_176.svg);
     min-width: 142px;
   }
 }

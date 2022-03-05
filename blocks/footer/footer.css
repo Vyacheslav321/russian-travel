@@ -3,11 +3,11 @@
   padding: 92px 0 24px;
   min-width: 1184px;
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: space-between;
 }
+
 @media screen and (max-width: 1279px) {
   .footer {
     min-width: 928px;

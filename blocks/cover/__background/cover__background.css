@@ -9,8 +9,6 @@
   align-items: center;
   box-sizing: border-box;
   position: relative;
-  overflow: hidden;
-  color: #fff;
   text-decoration: none;
   background-size: cover;
   background-position: center;
@@ -29,6 +27,7 @@
   opacity: 0.3;
   transition: opacity 200ms ease-in-out;
 }
+
 .cover__background:hover:before {
   display: block;
   opacity: 0.8;

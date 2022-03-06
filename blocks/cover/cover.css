@@ -1,6 +1,5 @@
 .cover {
   position: relative;
-  max-width: 100%;
   min-width: 1184px;
   min-height: 740px;
   box-sizing: border-box;
@@ -27,6 +26,6 @@
   .cover {
     min-width: 320px;
     min-height: 200px;
-    padding: 66px 0 0;
+    padding: 65px 0 0;
   }
 }

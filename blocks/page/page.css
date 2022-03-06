@@ -1,4 +1,5 @@
 .page {
+  width: 100%;
   min-width: 320px;
   font-family: "Inter", Arial, sans-serif;
   display: flex;
@@ -7,13 +8,32 @@
   justify-content: flex-start;
   align-content: center;
   align-items: center;
+  overflow-x: hidden;
   background: #2a2c2f;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1279px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    max-width: 320px;
+  }
 }

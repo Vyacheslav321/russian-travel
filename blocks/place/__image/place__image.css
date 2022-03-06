@@ -3,5 +3,21 @@
   height: 100%;
   box-sizing: content-box;
   align-self: start;
+  justify-items: start;
   border: 0;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+  }
 }

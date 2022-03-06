@@ -1,4 +1,5 @@
 .intro__title {
+  display: block;
   max-width: 690px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;

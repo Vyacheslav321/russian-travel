@@ -3,7 +3,6 @@
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  /* width:77.92%; */
   max-width: 984px;
   margin: 0 auto;
   padding: 92px 0 0;
@@ -17,7 +16,7 @@
 
 @media screen and (max-width: 1023px) {
   .places {
-    padding: 88px 0 0;
+    padding: 92px 0 0;
     max-width: 720px;
   }
 }

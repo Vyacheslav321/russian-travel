@@ -36,7 +36,6 @@
     grid-template-rows: repeat(12, 1fr);
     column-gap: 0;
     row-gap: 12px;
-    box-sizing: border-box;
     min-width: 288px;
   }
 }

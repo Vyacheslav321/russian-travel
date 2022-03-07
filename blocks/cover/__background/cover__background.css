@@ -1,7 +1,7 @@
 .cover__background {
   background-image: url(../../../images/cover__background.jpg);
-  min-width: 1184px;
-  min-height: 740px;
+  width: 1184px;
+  height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,9 +19,8 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  max-width: 100%;
-  min-width: 1184px;
-  min-height: 740px;
+  width: 1184px;
+  height: 740px;
   background: #2a2c2f;
   opacity: 0.3;
   transition: opacity 200ms ease-in-out;
@@ -34,33 +33,33 @@
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    min-width: 1024px;
-    min-height: 640px;
+    width: 1004px;
+    height: 640px;
   }
   .cover__background:before {
-    min-width: 1024px;
-    min-height: 640px;
+    width: 1004px;
+    height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__background {
-    min-width: 768px;
-    min-height: 480px;
+    width: 750px;
+    height: 480px;
   }
   .cover__background:before {
-    min-width: 768px;
-    min-height: 480px;
+    width: 750px;
+    height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__background {
-    min-width: 320px;
-    min-height: 200px;
+    width: 300px;
+    height: 200px;
   }
   .cover__background:before {
-    min-width: 320px;
-    min-height: 200px;
+    width: 300px;
+    height: 200px;
   }
 }

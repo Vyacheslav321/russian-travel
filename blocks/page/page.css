@@ -8,7 +8,6 @@
   justify-content: flex-start;
   align-content: center;
   align-items: center;
-  overflow-x: hidden;
   background: #2a2c2f;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -34,6 +33,6 @@
 
 @media screen and (max-width: 767px) {
   .page {
-    max-width: 320px;
+    width: 300px;
   }
 }

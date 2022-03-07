@@ -1,0 +1,17 @@
+.header__lang {
+  margin: 14px 18px 0 0;
+}
+
+.header__lang:last-child {
+  margin: 14px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang {
+    margin: 0 18px 0 0;
+  }
+
+  .header__lang:last-child {
+    margin: 0;
+  }
+}

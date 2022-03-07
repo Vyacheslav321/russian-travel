@@ -5,6 +5,8 @@
   padding: 28px 0 56px;
   display: flex;
   flex-wrap: nowrap;
+  align-content: flex-end;
+  /* align-items: end; */
   justify-content: space-between;
   box-sizing: content-box;
   min-height: 52px;
@@ -26,7 +28,6 @@
 @media screen and (max-width: 767px) {
   .header {
     width: 288px;
-    padding: 16px 0 38px;
-    min-height: 52px;
+    padding: 16px 0 40px;
   }
 }

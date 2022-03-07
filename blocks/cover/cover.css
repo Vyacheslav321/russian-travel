@@ -1,31 +1,29 @@
 .cover {
   position: relative;
-  min-width: 1184px;
-  min-height: 740px;
-  box-sizing: border-box;
+  width: 1184px;
+  height: 740px;
+  box-sizing: content-box;
   margin: 0;
-  padding: 92px 0 0;
+  padding: 0x;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
-    min-width: 1024px;
-    min-height: 640px;
+    width: 1004px;
+    height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    min-width: 768px;
-    min-height: 480px;
-    padding: 90px 0 0;
+    width: 750px;
+    height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    min-width: 320px;
-    min-height: 200px;
-    padding: 65px 0 0;
+    width: 320px;
+    height: 200px;
   }
 }

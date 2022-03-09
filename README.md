@@ -9,3 +9,6 @@
 
 ****
 Cсылка на работу [Путешествия по России](https://vyacheslav321.github.io/russian-travel/index.html)
+
+#### Моя Статистика :
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vyacheslav321&layout=compact&theme=vision-friendly)](https://github.com/Vyacheslav321/github-readme-stats)
